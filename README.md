@@ -111,12 +111,12 @@ Each comes with an example website and tests.
 
 | Language | Repository |
 |---|---|
-| Node.js | [rante-login-sdk-node](https://github.com/rante-corporation/rante-login-sdk-node) |
-| Python | [rante-login-sdk-python](https://github.com/rante-corporation/rante-login-sdk-python) |
-| .NET | [rante-login-sdk-dotnet](https://github.com/rante-corporation/rante-login-sdk-dotnet) |
-| Java | [rante-login-sdk-java](https://github.com/rante-corporation/rante-login-sdk-java) |
-| Go | [rante-login-sdk-go](https://github.com/rante-corporation/rante-login-sdk-go) |
-| PHP | [rante-login-sdk-php](https://github.com/rante-corporation/rante-login-sdk-php) |
+| Node.js | [rante-login-sdk-node](https://github.com/rantegraph/rante-login-sdk-node) |
+| Python | [rante-login-sdk-python](https://github.com/rantegraph/rante-login-sdk-python) |
+| .NET | [rante-login-sdk-dotnet](https://github.com/rantegraph/rante-login-sdk-dotnet) |
+| Java | [rante-login-sdk-java](https://github.com/rantegraph/rante-login-sdk-java) |
+| Go | [rante-login-sdk-go](https://github.com/rantegraph/rante-login-sdk-go) |
+| PHP | [rante-login-sdk-php](https://github.com/rantegraph/rante-login-sdk-php) |
 
 ## Endpoints
 
