@@ -1,0 +1,23 @@
+{
+  "name": "rante-login-sdk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Rante Login browser SDK (\"Sign in with Rante\" for websites): plain ES2019, no dependencies, no build step.",
+  "license": "MIT",
+  "homepage": "https://github.com/rante-corporation/rante-login-sdk#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rante-corporation/rante-login-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rante-corporation/rante-login-sdk/issues"
+  },
+  "main": "rante-login.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/rante-login.test.js",
+    "sri": "node tools/sri.js"
+  }
+}

@@ -1,0 +1,3 @@
+* text=auto eol=lf
+# Byte-for-byte the file served at login.rante.com (its integrity hash depends on every byte): never convert it.
+rante-login.js -text
