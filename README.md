@@ -99,6 +99,25 @@ Any standard OpenID Connect library can do this from the discovery document.
 `sub` is a pairwise identifier. It stays the same for your organization's apps and is different for other
 organizations. An email address is only released when the person has verified it.
 
+## Server-side SDKs
+
+For `serverSide: true`, these SDKs finish the sign-in on your server. Each one:
+
+- exchanges the code with `private_key_jwt` or PKCE alone;
+- validates the ID token as described above;
+- reads the cookies this SDK leaves.
+
+Each comes with an example website and tests.
+
+| Language | Repository |
+|---|---|
+| Node.js | [rante-login-sdk-node](https://github.com/rante-corporation/rante-login-sdk-node) |
+| Python | [rante-login-sdk-python](https://github.com/rante-corporation/rante-login-sdk-python) |
+| .NET | [rante-login-sdk-dotnet](https://github.com/rante-corporation/rante-login-sdk-dotnet) |
+| Java | [rante-login-sdk-java](https://github.com/rante-corporation/rante-login-sdk-java) |
+| Go | [rante-login-sdk-go](https://github.com/rante-corporation/rante-login-sdk-go) |
+| PHP | [rante-login-sdk-php](https://github.com/rante-corporation/rante-login-sdk-php) |
+
 ## Endpoints
 
 | | URL |
